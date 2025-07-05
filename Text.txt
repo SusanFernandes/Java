@@ -1,0 +1,7 @@
+// single line comments
+/* */ Multiline comments
+/** */ java docs - this is to generate doc abt our own made methods, class etc
+
+if-else : if(condition){} else{}
+
+function is block of reusable code
