@@ -5,3 +5,10 @@
 if-else : if(condition){} else{}
 
 function is block of reusable code
+DRY principle : dont repeat yourself
+naming : camelCase
+
+identifier return_type method_name(parameters if there are any)
+{
+    body
+}
