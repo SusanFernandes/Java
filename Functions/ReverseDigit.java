@@ -21,7 +21,7 @@ class ReverseDigit{
         // return reversedDigit;
 
         for (; a > 0; a /= 10) {
-        int i = a % 10;
+        i = a % 10;
         reversedDigit = (reversedDigit * 10) + i;
         }
         return reversedDigit;
