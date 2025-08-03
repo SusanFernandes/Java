@@ -10,15 +10,21 @@ class Factorial{
     }
 
     public static long factorial(int num){
-        int fact = 1;
+        long fact = 1;
 
         for(int i =1; i<=num; i++){
-            if (num ==0){
+            if (num ==0 || num == 1){
                 return 1;
             }
             fact = fact*i;
         }
-        
+
+        // int j = 2;
+        // while(j<= num){
+        //     fact*= j;
+        //     j++;
+        // }
+        System.out.println("Factorial is : " + fact);
         return fact;
     }
 }
