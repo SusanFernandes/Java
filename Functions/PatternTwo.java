@@ -19,6 +19,18 @@ class PatternTwo{
 
             System.out.println();
         }
+
+        // int m= num;
+        // while(m>=0){
+        //     System.out.print("* ");
+        //     int n = m;
+        //     while(n>0){
+        //         System.out.print("* ");
+        //         n--;
+        //     }
+        //     System.out.println();
+        //     m--;
+        // }
         
     }
 }
