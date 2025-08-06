@@ -6,7 +6,16 @@ class Palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int num = sc.nextInt();
-        // checkPalindrome(num);
+        // boolean palindrom = isPalindrome(num);
+        /**if (isPalindrom){
+         * System.out.println("The number is a Palindrome Number");
+
+        }
+        else{
+            System.out.println("The number is not a Palindrome Number");
+        }
+         * 
+        } */
         int b = flip(num);
         if (num == b){
             System.out.println("The number is a Palindrome Number");
@@ -31,5 +40,10 @@ class Palindrome {
         return flip;
     }
 
+    // public static boolean isPalindrom(int num){
+    //  
+    //     return num == flip(num);
+        
+    // }
 
 }
