@@ -14,7 +14,7 @@ class PatternThree{
         for (int i=num; i>0; i--){
             // System.out.print("- ");
             int j;
-            for(j= i; j>0; j--){
+            for(j= i; j>1; j--){
                 System.out.print("  ");
                 }
             int k = 0;
