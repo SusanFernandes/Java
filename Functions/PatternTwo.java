@@ -11,14 +11,14 @@ class PatternTwo{
     }
 
     public static void reversePattern(int num){
-        for(int i =num; i>=0; i-- ){
-            System.out.print("* ");
-            for(int j =i; j>0; j--){
-                System.out.print("* ");
-            }
+        // for(int i =num; i>0; i-- ){
+        //     // System.out.print("* ");
+        //     for(int j =i; j>0; j--){
+        //         System.out.print("* ");
+        //     }
 
-            System.out.println();
-        }
+        //     System.out.println();
+        // }
 
         // int m= num;
         // while(m>=0){
@@ -31,6 +31,18 @@ class PatternTwo{
         //     System.out.println();
         //     m--;
         // }
+        
+        int m = num;
+        while(m >0){
+            int n =0;
+            while(n<m){
+                System.out.print(" *");
+                n++;
+
+            }
+            System.out.println();
+            m--;
+        }
         
     }
 }
