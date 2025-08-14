@@ -32,6 +32,13 @@ class ArraySearch{
                 return false;
             }
         }
+        // int index=0;
+        // while (index<a.length){
+        //     if (a[index]== num){
+        //         return true;
+        //     }
+        //     index ++;
+        // }
     return false;
     }
 }
