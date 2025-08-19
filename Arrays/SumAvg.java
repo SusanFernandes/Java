@@ -9,13 +9,38 @@ class SumAvg{
         int i = 0;
         while(i<len){
             System.out.println("Please enter your element no. " + (i+1) + " : ");
-            nums[i]= input.nextInt();
+            nums[i]= scanner.nextInt();
             i++;
+        }
+        System.out.println("The sum of all the elements in the array is : " + sum(nums));
+        System.out.println("The average of all the elements in the array is : " + avg(nums));
 
+    }
+
+    public static long sum(int []a){
+        int Sum = 0;
+
+        for(int i =0; i <a.length; i++){
+            
+            Sum += a[i];
 
         }
+        return Sum;
+            
+        }
 
+    public static long avg(int []a ){
+        int Avg =0;
+        int count =0;
 
+        for (int i=0; i<a.length; i++){
+            Avg += a[i];
+            count ++;
+
+        }
+        Avg /= count;
+
+        return Avg;
 
     }
 }
