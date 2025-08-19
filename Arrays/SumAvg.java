@@ -17,8 +17,9 @@ class SumAvg{
 
     }
 
+//method for sum of all elements in the array
     public static long sum(int []a){
-        int Sum = 0;
+        long    Sum = 0;
 
         for(int i =0; i <a.length; i++){
             
@@ -29,18 +30,23 @@ class SumAvg{
             
         }
 
+
+//method for the average of all the elements in the array
     public static long avg(int []a ){
-        int Avg =0;
-        int count =0;
+        // long sum =0;
+        // int count =0;
 
-        for (int i=0; i<a.length; i++){
-            Avg += a[i];
-            count ++;
+        // for (int i=0; i<a.length; i++){
+        //     sum += a[i];
+        //     count ++;
 
-        }
-        Avg /= count;
+        // }
+        // long Avg = sum/ count;
 
-        return Avg;
+        // return Avg;
+
+        long sum = sum(a);
+        return (int)(sum/a.length);
 
     }
 }
