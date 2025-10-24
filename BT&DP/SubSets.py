@@ -1,12 +1,14 @@
-arr = [1,2,3,4,4]
+arr = [1,2,4,4]
 result = []
 i = 0
 all = [] 
 
 def sub(arr, result, i, all):
-
+    #for unique
+    # if arr[i] == arr[i-]
     if i ==len(arr):
-        all.append(result.copy())
+        if result not in all:
+            all.append(result.copy())
         # print(result, end = " ")
         return all
     result.append(arr[i])
@@ -16,6 +18,8 @@ def sub(arr, result, i, all):
     return
 
 if __name__ == "__main__":
+    
     a = sub(arr,result, i, all)
+    
     print(all)
 
